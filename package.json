@@ -1,0 +1,30 @@
+{
+  "name": "@maginapp/vuepress-plugin-copy-code",
+  "version": "1.0.0",
+  "description": "vuepress-plugin-copy-code",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maginapp/vuepress-plugin-copy-code.git"
+  },
+  "keywords": [
+    "vuepress",
+    "copy",
+    "copyCode"
+  ],
+  "author": {
+    "name": "maginapp",
+    "email": "1075433743@qq.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maginapp/vuepress-plugin-copy-code/issues"
+  },
+  "homepage": "https://github.com/maginapp/vuepress-plugin-copy-code#readme",
+  "publishConfig": {
+    "access": "public"
+  }
+}

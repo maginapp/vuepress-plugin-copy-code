@@ -1,0 +1,63 @@
+.code-copy {
+  color: #0094ff;
+  fill: #0094ff;
+}
+.code-copy svg {
+  font-size: 14px;
+  display: inline-block;
+  cursor: pointer;
+  width: 14px;
+  height: 14px;
+  vertical-align: middle;
+}
+.code-copy .code-copy-success {
+  display: none;
+}
+
+div[class*="language-"] pre .code-copy,
+div[class*="aside-code"] aside .code-copy {
+  position: absolute;
+  z-index: 1000;
+  /* bottom: 7px;
+  right: 7px; */
+  opacity: 0;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+
+div[class*="language-"] pre:hover .code-copy,
+div[class*="aside-code"] aside:hover .code-copy {
+  opacity: .75;
+}
+
+div[class*="language-"] pre:hover  .code-copy:hover ,
+div[class*="aside-code"] aside:hover .code-copy:hover  {
+  opacity: 1;
+}
+
+.content pre,
+.content pre[class*=language-] {
+  overflow-y: hidden;
+}
+
+div[class*="language-"] pre,
+div[class*="language-"] pre[class*="language-"] {
+  position: static !important;
+}
+
+div[class~="language-text"]:before {
+  content: "text";
+}
+
+div[class~="language-yml"]:before {
+  content: "yml";
+}
+
+div[class*="language-"] pre {
+  user-select: text;
+}
+
+p code {
+  user-select: all;
+}
